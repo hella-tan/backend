@@ -1,0 +1,10 @@
+{
+	"name": "Narwhal",
+	"version": "0.0.1",
+	"main": "server.js",
+	"dependencies": {
+		"express": "4.13.x",
+		"mongoose": "4.2.x",
+		"socket.io": "1.4.x",
+		"body-parser": "1.14.x"}
+}
