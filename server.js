@@ -2,7 +2,7 @@
 
 var express = require('express');
 var app = express();
-var server = app.listen(8080, function () {
+var server = app.listen(8080, '0.0.0.0', function () {
 	console.log("server listening on 8080");
 });
 var io = require('socket.io').listen(server);
